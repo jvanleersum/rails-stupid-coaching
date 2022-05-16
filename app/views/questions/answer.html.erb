@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Answer from the Coach</h1>
+
+  <div class="card">
+    <h4><%= @question %></h4>
+    <p><em>- You</em></p>
+  </div>
+  <div class="card">
+    <h4><%= @answer %></h4>
+    <p><em>- Coach</em></p>
+  </div>
+
+  <%= link_to "Interact some more", ask_path , class: "return"%>
+</div>
